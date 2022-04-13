@@ -1,0 +1,2 @@
+module escola_module {
+}
