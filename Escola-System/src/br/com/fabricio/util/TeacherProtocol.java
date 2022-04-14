@@ -2,7 +2,7 @@ package br.com.fabricio.util;
 
 import br.com.fabricio.model.SchoolClass;
 
-public interface TeacherProtocol extends Comparable<TeacherProtocol>, Logable{
+public interface TeacherProtocol extends Comparable<TeacherProtocol>, Identifiable<Long>, Loggable{
 	
 	// getters 
 	

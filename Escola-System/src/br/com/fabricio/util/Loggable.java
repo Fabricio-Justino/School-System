@@ -3,7 +3,7 @@ package br.com.fabricio.util;
 import br.com.fabricio.model.Email;
 import br.com.fabricio.model.Password;
 
-public interface Logable {
+public interface Loggable {
 
 	public void setEmail(String email);
 

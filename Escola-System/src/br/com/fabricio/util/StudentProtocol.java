@@ -2,7 +2,7 @@ package br.com.fabricio.util;
 
 import java.util.Collection;
 
-public interface StudentProtocol extends Comparable<StudentProtocol>, Logable{
+public interface StudentProtocol extends Comparable<StudentProtocol>, Identifiable<Long>, Loggable{
 	
 	
 	public void addgrade(TeacherProtocol teacher, double grade);
@@ -18,8 +18,6 @@ public interface StudentProtocol extends Comparable<StudentProtocol>, Logable{
 	public double getLowerGradOf(String matter);
 	
 	public double getHigherGradeOf(String matter);
-	
-	public long getId();
 	
 	public String getName();
 	
